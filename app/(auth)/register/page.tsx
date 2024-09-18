@@ -1,12 +1,15 @@
-// pages/sign-up.js or pages/sign-up.tsx
-import React from 'react';
+import AuthForm from '@/components/ui/AuthForm';
+import { useState, ChangeEvent, FormEvent } from 'react';
+
 
 const Register = () => {
   return (
-    <div>Register
-      
+    <div className='bg-green-700 h-screen'>
+      <AuthForm type='register'/>
     </div>
+
+
   );
-}
+};
 
 export default Register;
